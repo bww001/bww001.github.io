@@ -4,14 +4,16 @@
   border-radius: 150px;
   -webkit-border-radius: 150px;
   -moz-border-radius: 150px;
+  margin-left:auto; margin-right:auto;
   background: url(images/briana.jpg) no-repeat;
+  background-size: 300px 300px;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);}
 
 body {
   font-family: 'open_sansregular', sans-serif;
-  background-color: #F2F2F2;}
+  background-color: #FCFCFC;}
 
 h1 {
   color: black;
@@ -37,6 +39,7 @@ a:hover {
   color:gray;}
 
 a {
+  text-decoration: none;
   -webkit-transition: color 0.3s;
   -moz-transition: color 0.3s;
   -o-transition: color 0.3;
