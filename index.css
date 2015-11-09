@@ -1,6 +1,43 @@
+.myimage {
+  width: 300px;
+  height: 300px;
+  border-radius: 150px;
+  -webkit-border-radius: 150px;
+  -moz-border-radius: 150px;
+  background: url(images/briana.jpg) no-repeat;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);}
+
 body {
-  font-family: Helvetica, sans-serif;}
+  font-family: 'open_sansregular', sans-serif;
+  background-color: #F2F2F2;}
+
 h1 {
-  color: #ef6e80;}
+  color: black;
+  text-align: center;
+  vertical-align: middle;
+  font-weight: bold;}
+
+ul {
+  padding: 15px;
+  margin: 0px auto 0px auto;
+  text-align: center;}
+
+li {
+  display: inline;}
+
+a:link {
+  color: black;}
+
+a:visited {
+  color: black;}
+
+a:hover {
+  color:gray;}
+
 a {
-  color: #000000;}
+  -webkit-transition: color 0.3s;
+  -moz-transition: color 0.3s;
+  -o-transition: color 0.3;
+  transition: color 0.3s;}
