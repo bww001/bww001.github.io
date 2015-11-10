@@ -1,25 +1,26 @@
 .myimage {
-  width: 300px;
-  height: 300px;
-  border-radius: 150px;
-  -webkit-border-radius: 150px;
-  -moz-border-radius: 150px;
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
   margin-left:auto; margin-right:auto;
   background: url(images/briana.jpg) no-repeat;
-  background-size: 100%;
+  background-size: 95%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);}
 
 body {
   font-family: 'open_sansregular', sans-serif;
-  background-color: #FCFCFC;}
+  background: radial-gradient(rgba(169, 169, 169, .75) 10%, 
+    rgba(128, 128, 128, .75) 40%, rgba(77, 77, 77, .75) 70%);
+    url(images/background.jpg);}
 
 h1 {
   color: black;
   text-align: center;
-  vertical-align: middle;
-  font-weight: bold;}
+  vertical-align: middle;}
 
 ul {
   padding: 15px;
