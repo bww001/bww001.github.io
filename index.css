@@ -13,17 +13,22 @@
 
 body {
   font-family: 'Source Code Pro', ;
+}
+
+#background {
   background: 
     linear-gradient(
-    rgba(77, 77, 77, .75),
-    rgba(77, 77, 77, .75)),
+    rgba(128, 128, 128, .75),
+    rgba(128, 128, 128, .75)),
     url(images/background.jpg) no-repeat;
-  background-size: 97%;}
+  background-size: 100%;}
+
 
 h1 {
   color: black;
-  text-align: center;
-  vertical-align: middle;}
+  margin-left:auto; margin-right:auto;
+ /* text-align: center;
+  vertical-align: middle;*/}
 
 ul {
   padding: 15px;
