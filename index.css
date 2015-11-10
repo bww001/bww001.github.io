@@ -1,18 +1,18 @@
 .myimage {
-  width: 150px;
-  height: 150px;
-  border-radius: 75px;
-  -webkit-border-radius: 75px;
-  -moz-border-radius: 75px;
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
   margin-left:auto; margin-right:auto;
   background: url(images/briana.jpg) no-repeat;
   background-size: 100%;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);}
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  float: left;}
 
 body {
-  font-family: 'Source Code Pro', ;
   background: 
     linear-gradient(
     rgba(128, 128, 128, .70),
@@ -27,6 +27,13 @@ section {
   transform: translate(-50%, -50%);}
 
 h1 {
+  font-family: 'Lobster', cursive;
+  color: black;
+  text-align: center;
+  vertical-align: middle;}
+
+h2 {
+  font-family: 'Quicksand', sans-serif;
   color: black;
   text-align: center;
   vertical-align: middle;}
@@ -46,7 +53,7 @@ a:hover {
 a:link, a:visited {
   display: block;
   width: 120px;
-  color: #F0FFF;
+  color: #F0FFFF;
   text-decoration: none;
   text-align: center;
   padding: 15px;
