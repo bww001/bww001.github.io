@@ -17,7 +17,8 @@ body {
     linear-gradient(
     rgba(169, 169, 169, .75),
     rgba(169, 169, 169, .75)),
-    url(images/background.jpg);}
+    url(images/background.jpg);
+  background-size: 70%;}
 
 h1 {
   color: black;
@@ -39,7 +40,8 @@ a:visited {
   color: black;}
 
 a:hover {
-  color:gray;}
+  color:#4C7E80;}
+  
 
 a {
   text-decoration: none;
