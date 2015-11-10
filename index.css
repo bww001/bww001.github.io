@@ -24,7 +24,7 @@ section {
 h1 {
   font-family: 'Lobster', cursive;
   font-size: 300%;
-  background: -webkit-linear-gradient(#F0F8FF, #eee);
+  background: -webkit-linear-gradient(#eee, #333);
   -webkit-background-clip: text;
   webkit-text-fill-color: transparent;
   text-align: center;}
