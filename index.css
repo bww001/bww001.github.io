@@ -14,13 +14,14 @@ body {
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  background-color: rgba(77, 77, 77, .7);}
+
+.myimage:hover {
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3;
-  transition: background-color 0.3s;}
-
-div.myimage:hover {
-  background-color: rgba(77, 77, 77, .7);}
+  transition: background-color 0.3s;
+  background-color: rgba(77, 77, 77, 0);}
 
 #home {
   font-family: 'Quicksand', sans-serif;}
@@ -35,7 +36,7 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 300%;
   text-align: center;
-  background: linear-gradient(180deg, #F0F8FF 30%, #b7b7b7 50%, #696969 80%, #424242 90%, #353535 100%);
+  background: linear-gradient(180deg, #F0F8FF 30%, #b7b7b7 70%, #696969 80%, #424242 90%, #353535 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}
 
