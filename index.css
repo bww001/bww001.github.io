@@ -25,11 +25,7 @@ body {
   -moz-transition: background 0.5s;
   -o-transition: background 0.5s;
   transition: background 0.5s;
-  background:  
-    linear-gradient(
-    rgba(128, 128, 128, .3),
-    rgba(128, 128, 128, .3)),
-    url(images/briana.jpg) no-repeat;
+  background: url(images/briana.jpg) no-repeat;
   background-size: 115%;}
 
 #home {
