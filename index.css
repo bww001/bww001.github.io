@@ -41,7 +41,7 @@ h1 {
   font-family: 'Lobster', cursive;
   font-size: 300%;
   text-align: center;
-  background: linear-gradient(180deg, #F0F8FF 30%, #e5f3ff 75%, #cce7ff 90%, #99cfff 100%);
+  background: linear-gradient(180deg, #F0F8FF 50%, #e5f3ff 75%, #cce7ff 90%, #99cfff 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;}
 
