@@ -7,8 +7,7 @@ body {
   background: 
     linear-gradient(
     rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70)),
-    url(images/background.jpg);
+    rgba(128, 128, 128, .70));
   background-size: 100%;}
 
 section {
@@ -38,7 +37,9 @@ section {
   background-size: 115%;}
 
 #home {
-  font-family: 'Quicksand', sans-serif;}
+  font-family: 'Quicksand', sans-serif;
+  background-image: url(images/background.jpg);
+}
 
 #home span {
   position: absolute;
