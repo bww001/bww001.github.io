@@ -48,13 +48,16 @@ h1 {
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   -o-text-fill-color: transparent;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;}
+  -webkit-animation-delay: 1s;
+  -moz-animation-delay: 1s;
+  -o-animation-delay: 1s;}
 
 h2 {
   color: #F0F8FF;
-  text-align: center;}
+  text-align: center;
+  -webkit-animation-delay: 2s;
+  -moz-animation-delay: 2s;
+  -o-animation-delay: 2s;}
 
 ul {
   list-style-type: none;
