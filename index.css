@@ -68,19 +68,19 @@ h2 {
   -moz-animation-delay: 2s;
   -o-animation-delay: 2s;}
 
-ul {
+ul#navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;}
 
-li {
+ul#navigation li {
   float: right;}
 
-a:hover {
+ul#navigation a:hover {
   background-color: rgba(77, 77, 77, .7);}
 
-a:link, a:visited {
+ul#navigation a:link, ul#navigation a:visited {
   display: block;
   width: 120px;
   color: #F0F8FF;
