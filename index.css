@@ -72,7 +72,11 @@ ul#navigation {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;}
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
 
 ul#navigation li {
   float: right;}
