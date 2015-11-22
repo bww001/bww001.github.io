@@ -115,11 +115,7 @@ ul#navigation a {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
   padding: 15px;
-  background: linear-gradient(
-    rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70)),
-    url(images/about-background.jpg);
-  background-size: 100%;
+  background-color: #3D3D5C;
 }
 
 #about h3 {
@@ -147,11 +143,7 @@ ul#navigation a {
   PROJECTS
 ******************************/
 #projects {
-  background: linear-gradient(
-    rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70)),
-    url(images/projects-background.jpg);
-  background-size: 100%;
+  background-color: #3D3D5C;
 }
 
 /******************************
