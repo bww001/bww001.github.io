@@ -95,7 +95,7 @@ ul#navigation a {
   width: 100px; height: 100px;
   border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px;
   background-image: url(images/briana.jpg) no-repeat; 
-  background-color: linear-gradient( rgba(128, 128, 128, .3), rgba(128, 128, 128, .3));
+  background: linear-gradient( rgba(128, 128, 128, .3), rgba(128, 128, 128, .3));
   background-size: 115%;
   margin-left:auto; margin-right:auto;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
@@ -108,7 +108,7 @@ ul#navigation a {
 }
 
 .myimage:hover {
-  background-color: none
+/*  background-color: none */
 }
 
 #about {
@@ -116,9 +116,7 @@ ul#navigation a {
   font-size: 150%;
   color: #F0F8FF;
   padding: 15px;
-  background: linear-gradient(
-    rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70));
+  background-color: #a6a6a6;
 }
 
 #about .title {
