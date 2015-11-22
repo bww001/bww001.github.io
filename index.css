@@ -113,7 +113,7 @@ ul#navigation a {
 
 #about {
   font-family: 'Quicksand', sans-serif;
-  font-size: 200%;
+  font-size: 150%;
   padding: 15px;
   background: linear-gradient(
     rgba(128, 128, 128, .70),
@@ -126,8 +126,19 @@ ul#navigation a {
   text-align: center;
 }
 
+@keyframes typing { from {width: 0;} }
+@keyframes blink-caret { 50% { border-color: transparent; } }
+
 #about p {
   text-align: center;
+  border-right: .1em solid;
+  width: 16.5em; /*fallback*/
+  width: 50ch; /*# of chars*/
+  margin: 2em 1em;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing s steps(50, end),
+             blink-caret .5s step-end infinite alternate;
 }
 
 
