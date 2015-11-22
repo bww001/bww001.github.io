@@ -118,9 +118,11 @@ ul#navigation a {
   background-color: #3D3D5C;
 }
 
-#about title {
+#about .title {
   text-align: center;
-  color: #F0F8FF;
+  background: linear-gradient(
+    rgba(128, 128, 128, .70),
+    rgba(128, 128, 128, .70));
   font-size: 3.5em;
   font-weight: 400;
   line-height: 1.1em;
@@ -130,8 +132,8 @@ ul#navigation a {
   position: relative;
 }
 
-#about title:before,
-title:after {
+#about .title:before,
+.title:after {
   background: url(images/arrow.svg) no-repeat center center/5em 0.5em;
   content: "";
   left: -5.8em;
@@ -140,7 +142,7 @@ title:after {
   height: 1.25em;
 }
 
-#about title:after {
+#about .title:after {
   left: auto;
   right: -5.8em;
   -webkit-transform: scaleX(-1);
