@@ -118,11 +118,36 @@ ul#navigation a {
   background-color: #3D3D5C;
 }
 
-#about h3 {
+#about title {
   text-align: center;
+  color: #F0F8FF;
+  font-size: 3.5em;
+  font-weight: 400;
+  line-height: 1.1em;
+  font-family: Lora;
+  font-style: italic;
+  display: inline-block;
+  position: relative;
 }
 
-@keyframes typing { from {width: 0;} }
+#about title:before,
+title:after {
+  background: url(images/arrow.svg) no-repeat center center/5em 0.5em;
+  content: "";
+  left: -5.8em;
+  position: absolute;
+  width: 5em;
+  height: 1.25em;
+}
+
+#about title:after {
+  left: auto;
+  right: -5.8em;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+}
+
+@keyframes typing { from { width: 0; } }
 @keyframes blink-caret { 50% { border-color: transparent; } }
 
 #about p {
