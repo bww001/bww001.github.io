@@ -23,6 +23,7 @@ section {
     rgba(128, 128, 128, .70),
     rgba(128, 128, 128, .70));
   background-image: url(images/background.jpg);
+  background-size: 100%;
 }
 
 #home span {
@@ -116,10 +117,9 @@ ul#navigation a {
   background-color: linear-gradient(
     rgba(128, 128, 128, .70),
     rgba(128, 128, 128, .70));
-  background-image: url(images/background.jpg);
 }
 
-#about p {
+#about h3 {
   text-align: center;
 }
 
