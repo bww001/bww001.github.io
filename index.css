@@ -19,10 +19,10 @@ section {
 ******************************/
 
 #home {
-  background-color: linear-gradient(
+  background: linear-gradient(
     rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70));
-  background-image: url(images/background.jpg);
+    rgba(128, 128, 128, .70)),
+    url(images/home-background.jpg);
   background-size: 100%;
 }
 
@@ -33,7 +33,7 @@ section {
   transform: translate(-50%, -50%);
 }
 
-h1 span {
+span h1{
   font-family: 'Lobster', cursive;
   font-size: 300%;
   text-align: center;
@@ -49,7 +49,7 @@ h1 span {
   -o-animation-delay: .7s;
 }
 
-h2 {
+span h2 {
   color: #F0F8FF;
   text-align: center;
   -webkit-animation-delay: 2s;
@@ -114,9 +114,12 @@ ul#navigation a {
 #about {
   font-family: 'Quicksand', sans-serif;
   font-size: 200%;
-  background-color: linear-gradient(
+  padding: 15px;
+  background: linear-gradient(
     rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70));
+    rgba(128, 128, 128, .70)),
+    url(images/about-background.jpg);
+  background-size: 100%;
 }
 
 #about h3 {
@@ -128,6 +131,13 @@ ul#navigation a {
 /******************************
   PROJECTS
 ******************************/
+#projects {
+  background: linear-gradient(
+    rgba(128, 128, 128, .70),
+    rgba(128, 128, 128, .70)),
+    url(images/home-background.jpg);
+  background-size: 100%;
+}
 
 /******************************
   CONTACT
