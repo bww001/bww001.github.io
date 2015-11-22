@@ -114,17 +114,17 @@ ul#navigation a {
 #about {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
+  color: #F0F8FF;
   padding: 15px;
-  background-color: #3D3D5C;
+  background: linear-gradient(
+    rgba(128, 128, 128, .70),
+    rgba(128, 128, 128, .70));
 }
 
 #about .title {
   text-align: center;
-  background: linear-gradient(
-    rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70));
-/*  font-size: 3.5em;
-  font-weight: 400; */
+  font-size: 115%;
+/*  font-weight: 400; */
   line-height: 1.1em;
   font-family: Lora;
   font-style: italic;
@@ -170,7 +170,9 @@ ul#navigation a {
   PROJECTS
 ******************************/
 #projects {
-  background-color: #3D3D5C;
+  background: linear-gradient(
+    rgba(128, 128, 128, .70),
+    rgba(128, 128, 128, .70));
 }
 
 /******************************
