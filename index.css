@@ -14,38 +14,25 @@ section {
   min-height: 100%;
 }
 
-.myimage {
-  width: 100px; height: 100px;
-  border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px;
-  background-color: linear-gradient( rgba(128, 128, 128, .3), rgba(128, 128, 128, .3));
-  background-image: url(images/briana.jpg) no-repeat; 
-  background-size: 115%;
-  margin-left:auto; margin-right:auto;
-  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
-  -webkit-transition: background-color 1s;
-  -moz-transition: background-color 1s;
-  -o-transition: background-color 1s;
-  transition: background-color 1s;}
-
-.myimage:hover {
-  background-color: none}
+/******************************
+  HOME
+******************************/
 
 #home {
-  background: linear-gradient(
+  background-color: linear-gradient(
     rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70)),
-    url(images/background.jpg);
+    rgba(128, 128, 128, .70));
+  background-image: url(images/background.jpg);
 }
 
 #home span {
   position: absolute;
   top: 50%; left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);}
+  transform: translate(-50%, -50%);
+}
 
-h1 {
+h1 span {
   font-family: 'Lobster', cursive;
   font-size: 300%;
   text-align: center;
@@ -58,14 +45,16 @@ h1 {
   -o-text-fill-color: transparent;
   -webkit-animation-delay: .7s;
   -moz-animation-delay: .7s;
-  -o-animation-delay: .7s;}
+  -o-animation-delay: .7s;
+}
 
 h2 {
   color: #F0F8FF;
   text-align: center;
   -webkit-animation-delay: 2s;
-  -moz-animation-delay: 2s;
-  -o-animation-delay: 2s;}
+  -moz-animation-delay: 1.5s;
+  -o-animation-delay: 1.5s;
+}
 
 ul#navigation {
   list-style-type: none;
@@ -78,12 +67,14 @@ ul#navigation {
 }
 
 ul#navigation li {
-  float: right;}
+  float: right;
+}
 
 ul#navigation a:hover {
-  background-color: rgba(77, 77, 77, .7);}
+  background-color: rgba(77, 77, 77, .7);
+}
 
-ul#navigation a{
+ul#navigation a {
   display: block;
   width: 120px;
   color: #F0F8FF;
@@ -93,7 +84,51 @@ ul#navigation a{
   -webkit-transition: background-color 0.3s;
   -moz-transition: background-color 0.3s;
   -o-transition: background-color 0.3;
-  transition: background-color 0.3s;}
+  transition: background-color 0.3s;
+}
+
+/******************************
+  ABOUT
+******************************/
+.myimage {
+  width: 100px; height: 100px;
+  border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px;
+  background-image: url(images/briana.jpg) no-repeat; 
+  background-color: linear-gradient( rgba(128, 128, 128, .3), rgba(128, 128, 128, .3));
+  background-size: 115%;
+  margin-left:auto; margin-right:auto;
+  box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+  -webkit-transition: background-color 1s;
+  -moz-transition: background-color 1s;
+  -o-transition: background-color 1s;
+  transition: background-color 1s;
+}
+
+.myimage:hover {
+  background-color: none
+}
 
 #about {
-  font-family: 'Quicksand', sans-serif;}
+  font-family: 'Quicksand', sans-serif;
+  font-size: 200%;
+  background-color: linear-gradient(
+    rgba(128, 128, 128, .70),
+    rgba(128, 128, 128, .70));
+  background-image: url(images/background.jpg);
+}
+
+#about p {
+  text-align: center;
+}
+
+
+
+/******************************
+  PROJECTS
+******************************/
+
+/******************************
+  CONTACT
+******************************/
