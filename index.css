@@ -126,6 +126,10 @@ ul#navigation a {
   text-align: center;
 }
 
+#about p {
+  text-align: center;
+}
+
 
 
 /******************************
@@ -135,7 +139,7 @@ ul#navigation a {
   background: linear-gradient(
     rgba(128, 128, 128, .70),
     rgba(128, 128, 128, .70)),
-    url(images/home-background.jpg);
+    url(images/projects-background.jpg);
   background-size: 100%;
 }
 
