@@ -93,18 +93,18 @@ ul#navigation a {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
   text-align: center;
-  height: 50%;
   background-color: #FFFFFF;
 }
 
 #about .title {
+  margin-top: 4em;
+  margin-bottom: 4em;
   font-size: 125%;
   line-height: 1.1em;
   font-style: bold;
 }
 
 #about p {
-  margin-top: 4em;
   margin-left: 10em; 
   margin-right:10em;
 }
@@ -113,8 +113,11 @@ ul#navigation a {
   PROJECTS
 ******************************/
 #projects {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 150%;
+  text-align: center;
+  color: #F0F8FF;
   background-color: #5f6575;
-
 }
 
 /******************************
