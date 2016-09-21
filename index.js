@@ -34,6 +34,5 @@ function typewriter()
     setTimeout("typewriter()", iSpeed);
   }
 }
-function myFunc(){
-  setTimeout(typewriter, 1500);
-}
+
+setTimeout(typewriter, 1500);
