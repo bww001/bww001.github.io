@@ -95,8 +95,8 @@ ul#navigation a {
   text-align: center;
   position: relative;
   background: linear-gradient(
-    rgba(63, 191, 191, .85),
-    rgba(63, 191, 191, .85),
+    rgba(128, 128, 128, .60),
+    rgba(128, 128, 128, .60)),
     url(images/about-background.jpg);
   background-size: 100%;
 }
