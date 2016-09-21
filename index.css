@@ -92,13 +92,9 @@ ul#navigation a {
 #about {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
+  text-align: center;
   height: 50%;
   background-color: #FFFFFF;
-}
-
-#about span {
-  margin-top: 4em;
-  text-align: center;
 }
 
 #about .title {
@@ -108,6 +104,7 @@ ul#navigation a {
 }
 
 #about p {
+  margin-top: 4em;
   margin-left: 10em; 
   margin-right:10em;
 }
@@ -117,6 +114,7 @@ ul#navigation a {
 ******************************/
 #projects {
   background-color: #5f6575;
+
 }
 
 /******************************
