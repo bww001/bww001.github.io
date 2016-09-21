@@ -26,14 +26,14 @@ function typewriter()
   if ( iTextPos++ == iArrLength ) {
     iTextPos = 0;
     iIndex++;
-    if ( iIndex != aText.length ) {
+    /*if ( iIndex != aText.length ) {
       iArrLength = aText[iIndex].length;
-      setInterval("typewriter()", 500);
+      setTimeout("typewriter()", 500);
     }
   } else {
-    setInterval("typewriter()", iSpeed);
-  }
-  clearInterval();
+    setTimeout("typewriter()", iSpeed);
+  }*/
+  setInterval("typewriter()", iSpeed);
 }
   ,1500);
 
