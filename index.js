@@ -37,4 +37,4 @@ function typewriter()
     setTimeout("typewriter()", iSpeed);
   }
 }
-
+typewriter();
