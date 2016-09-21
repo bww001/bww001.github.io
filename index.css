@@ -91,18 +91,13 @@ ul#navigation a {
 
 #about {
   font-family: 'Quicksand', sans-serif;
-  font-size: 150%;
-  text-align: center;
+  font-size: 120%;
   position: relative;
-  background: linear-gradient(
-    rgba(128, 128, 128, .60),
-    rgba(128, 128, 128, .60)),
-    url(images/about-background.jpg);
   background-size: 100%;
 }
 
 #about span {
-  padding-top: 4em;
+  margin-top: 4em;
   text-align: center;
 }
 
@@ -110,7 +105,6 @@ ul#navigation a {
   font-size: 125%;
   line-height: 1.1em;
   font-style: bold;
-  display: inline-block;
 }
 
 #about p {
