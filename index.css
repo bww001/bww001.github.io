@@ -99,7 +99,7 @@ ul#navigation a {
 
 #about .title {
   text-align: center;
-  font-size: 115%;
+  font-size: 125%;
   line-height: 1.1em;
   font-style: bold;
   display: inline-block;
@@ -113,8 +113,6 @@ ul#navigation a {
   width: 16.5em; /*fallback*/
   width: 50ch; /*# of chars*/
   margin: 4em;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 /******************************
