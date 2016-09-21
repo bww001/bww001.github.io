@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = [ "I'm Briana Wong.\nI am a Computer Science student at UCSD."];
+    var dataText = [ "I'm Briana Wong.", "I am a Computer Science student at UCSD."];
 
     // type one text in the typwriter
     // keeps calling itself until the text is finished
@@ -38,5 +38,5 @@ document.addEventListener('DOMContentLoaded',function(event){
       }
     }
     // start the text animation
-    StartTextAnimation(0);
+    setTimeout( StartTextAnimation(0), 1.5);
 });
