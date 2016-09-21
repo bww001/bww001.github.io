@@ -134,6 +134,7 @@ ul#navigation a {
   width: 16.5em; /*fallback*/
   width: 50ch; /*# of chars*/
   margin: 2em 1em;
+  margin-left, margin-right: 200px;
   white-space: nowrap;
   overflow: hidden;
 }

@@ -35,4 +35,4 @@ function typewriter()
 }
 
 
-setTimeout(typewriter(), 1500);
+setTimeout(typewriter(), 15000);
