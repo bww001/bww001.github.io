@@ -93,7 +93,10 @@ ul#navigation a {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
   text-align: center;
-  padding: 15px;
+  position: relative;
+  height: 50%;
+  padding-top: 8em;
+  padding-bottom: 12em;
 /*  background-color: #5f6575; */
 }
 
@@ -103,10 +106,6 @@ ul#navigation a {
   line-height: 1.1em;
   font-style: bold;
   display: inline-block;
-  position: relative;
-  height: 50%;
-  padding-top: 8em;
-  padding-bottom: 12em;
 }
 
 #about p {

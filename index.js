@@ -28,11 +28,12 @@ function typewriter()
     iIndex++;
     if ( iIndex != aText.length ) {
       iArrLength = aText[iIndex].length;
-      setTimeout("typewriter()", 500);
+      setInterval("typewriter()", 500);
     }
   } else {
-    setTimeout("typewriter()", iSpeed);
+    setInterval("typewriter()", iSpeed);
   }
+  clearInterval();
 }
   ,1500);
 
