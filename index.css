@@ -94,9 +94,12 @@ ul#navigation a {
   font-size: 150%;
   text-align: center;
   position: relative;
-  height: 50%;
   padding-top: 4em;
-/*  background-color: #5f6575; */
+  background: linear-gradient(
+    rgba(128, 128, 128, .70),
+    rgba(128, 128, 128, .70)),
+    url(images/about-background.jpg);
+  background-size: 100%;
 }
 
 #about .title {
@@ -109,7 +112,7 @@ ul#navigation a {
 
 #about p {
   text-align: center;
-  margin: 1em 8em 1em 8em;
+  margin: 1em 10em 1em 10em;
 }
 
 /******************************
