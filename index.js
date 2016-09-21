@@ -1,14 +1,14 @@
 document.addEventListener('DOMContentLoaded',function(event){
     // array with texts to type in typewriter
-    var dataText = [ "Amsterdam.", "Full Service.", "Webdevelopment.", "Wij zijn Occhio!"];
+    var dataText = [ "I'm Briana Wong.\nI am a Computer Science student at UCSD."];
 
     // type one text in the typwriter
     // keeps calling itself until the text is finished
     function typeWriter(text, i, fnCallback) {
     // check if text isn't finished yet
     if (i < (text.length)) {
-    // add next character to h1
-    document.querySelector("h1").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+    // add next character to h2 "I am Briana Wong" section
+    document.querySelector("h2").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
 
     // wait for a while and call this function again for next character
     setTimeout(function() {
