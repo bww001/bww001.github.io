@@ -101,9 +101,12 @@ ul#navigation a {
   background-size: 100%;
 }
 
-#about .title {
+#about span {
   padding-top: 4em;
   text-align: center;
+}
+
+#about .title {
   font-size: 125%;
   line-height: 1.1em;
   font-style: bold;
@@ -111,8 +114,8 @@ ul#navigation a {
 }
 
 #about p {
-  text-align: center;
-  margin: 1em 10em 1em 10em;
+  margin-left: 10em; 
+  margin-right:10em;
 }
 
 /******************************
