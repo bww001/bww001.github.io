@@ -12,7 +12,10 @@ var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
 
-setTimeout(
+function myFunc(){
+  setTimeout(typewriter, 1500);
+}
+
 function typewriter()
 {
   sContents =  ' ';
@@ -22,18 +25,16 @@ function typewriter()
   while ( iRow < iIndex ) {
     sContents += aText[iRow++] + '<br />';
   }
-  destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "_";
+  destination.innerHTML = sContents + aText[iIndex].substring(0, iTextPos) + "|";
   if ( iTextPos++ == iArrLength ) {
     iTextPos = 0;
     iIndex++;
-    /*if ( iIndex != aText.length ) {
+    if ( iIndex != aText.length ) {
       iArrLength = aText[iIndex].length;
       setTimeout("typewriter()", 500);
     }
   } else {
     setTimeout("typewriter()", iSpeed);
-  }*/
-  setInterval("typewriter()", iSpeed);
+  }
 }
-  ,1500);
 
