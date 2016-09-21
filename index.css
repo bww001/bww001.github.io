@@ -26,6 +26,7 @@ section {
     rgba(128, 128, 128, .60)),
     url(images/home-background.jpg);
   background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 #home span {
@@ -120,8 +121,12 @@ ul#navigation a {
   font-size: 150%;
   text-align: center;
   color: #F0F8FF;
-  background-height:
+  background-height: 100%;
   background-color: #5f6575;
+}
+
+#projects img {
+
 }
 
 /******************************
