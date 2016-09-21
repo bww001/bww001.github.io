@@ -1,7 +1,7 @@
 // set up text to print, each item in array is new line
 var aText = new Array(
-    "There are only 10 types of people in the world:", 
-    "Those who understand binary, and those who don't"
+    "I'm Briana Wong.", 
+    "I am a Computer Science student at UCSD."
     );
 var iSpeed = 100; // time delay of print out
 var iIndex = 0; // start printing array at this posision
@@ -35,4 +35,4 @@ function typewriter()
 }
 
 
-typewriter();
+setTimeout(typewriter(), 1500);
