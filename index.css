@@ -20,8 +20,8 @@ section {
 
 #home {
   background: linear-gradient(
-    rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70)),
+    rgba(128, 128, 128, .60),
+    rgba(128, 128, 128, .60)),
     url(images/home-background.jpg);
   background-size: 100%;
 }
@@ -94,15 +94,15 @@ ul#navigation a {
   font-size: 150%;
   text-align: center;
   position: relative;
-  padding-top: 4em;
   background: linear-gradient(
-    rgba(128, 128, 128, .70),
-    rgba(128, 128, 128, .70)),
+    rgba(63, 191, 191, .85),
+    rgba(63, 191, 191, .85),
     url(images/about-background.jpg);
   background-size: 100%;
 }
 
 #about .title {
+  padding-top: 4em;
   text-align: center;
   font-size: 125%;
   line-height: 1.1em;
