@@ -52,9 +52,6 @@ span h1{
 span h2 {
   color: #F0F8FF;
   text-align: center;
-  -webkit-animation-delay: 2s;
-  -moz-animation-delay: 1.5s;
-  -o-animation-delay: 1.5s;
 }
 
 ul#navigation {
@@ -104,29 +101,11 @@ ul#navigation a {
   text-align: center;
   font-size: 115%;
   line-height: 1.1em;
-  font-family: Lora;
   font-style: bold;
   display: inline-block;
+  margin-top: 2em;
   position: relative;
 }
-
-#about .title:before,
-#about .title:after {
-  background: url(images/arrow.svg) no-repeat center center/5em 0.5em;
-  content: "";
-  left: -5.8em;
-  position: absolute;
-  width: 5em;
-  height: 1.25em;
-}
-
-#about .title:before {
-  left: auto;
-  right: -5.8em;
-  -webkit-transform: scaleX(-1);
-  transform: scaleX(-1);
-}
-
 
 #about p {
   text-align: center;
