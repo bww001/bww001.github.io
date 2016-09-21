@@ -95,7 +95,7 @@ ul#navigation a {
   text-align: center;
   position: relative;
   height: 50%;
-  padding-top: 8em;
+  padding-top: 4em;
 /*  background-color: #5f6575; */
 }
 
@@ -109,8 +109,7 @@ ul#navigation a {
 
 #about p {
   text-align: center;
-  margin: 4em;
-  margin-top: 1em;
+  margin: 1em 6em 1em 6em;
 }
 
 /******************************
