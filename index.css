@@ -4,7 +4,6 @@ html {
 
 body {
   font-family: 'Quicksand', sans-serif;
-  height: 100%;
   background: 
   padding: 0;
   margin: 0;
@@ -19,6 +18,7 @@ section {
 ******************************/
 
 #home {
+  background-height: 100%;
   background: linear-gradient(
     rgba(128, 128, 128, .60),
     rgba(128, 128, 128, .60)),
@@ -93,7 +93,7 @@ ul#navigation a {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
   text-align: center;
-  height: 50%;
+  background-height: 50%;
   background-color: #FFFFFF;
 }
 
