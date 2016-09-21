@@ -12,6 +12,7 @@ var iTextPos = 0; // initialise text position
 var sContents = ''; // initialise contents variable
 var iRow; // initialise current row
 
+setTimeout(typewriter(), 1500);
 function typewriter()
 {
   sContents =  ' ';
@@ -34,5 +35,3 @@ function typewriter()
   }
 }
 
-delay(1500);
-typewriter();
