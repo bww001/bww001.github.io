@@ -92,7 +92,8 @@ ul#navigation a {
 #about {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
-  position: relative;
+  height: 50%;
+  background-color: #FFFFFF;
 }
 
 #about span {
