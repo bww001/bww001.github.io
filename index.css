@@ -95,7 +95,7 @@ ul#navigation a {
   font-family: 'Quicksand', sans-serif;
   font-size: 150%;
   text-align: center;
-  background-height: 50%;
+  background-height: 80%;
   background-color: #FFFFFF;
 }
 
@@ -120,19 +120,23 @@ ul#navigation a {
   font-size: 150%;
   text-align: center;
   color: #F0F8FF;
+  background-height:
   background-color: #5f6575;
 }
 
 /******************************
   CONTACT
 ******************************/
+#contact {
+  background-height:
+}
+
 #contact .myimage {
   width: 100px; height: 100px;
   border-radius: 50px; -webkit-border-radius: 50px; -moz-border-radius: 50px;
   background-image: url(images/briana.jpg) no-repeat; 
   background: linear-gradient( rgba(128, 128, 128, .3), rgba(128, 128, 128, .3)); 
   background-size: 115%;
-  margin-left:auto; margin-right:auto; 
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
